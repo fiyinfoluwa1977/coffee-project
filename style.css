@@ -132,4 +132,47 @@ border: 2px solid rgb(242, 150, 29);
     font-size: 25px;
     font-weight: 0;
 }
+.menu {
+    height: 170vh;
+    background-color: rgb(38, 38, 38);
+    padding: 70px 0;
+}
+.menu h1 {
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 37px;
+    font-weight: 800;
+}
+.menu-pic {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.menu-pic img {
+    width: 270px;
+    height: 270px;
+    margin-top: 60px;
+}
+.each-menu {
+    color: white;
+    display: grid;
+    justify-items: center;
+    align-self: center;
+    text-align: center;
+    /* border: 1px solid white; */
+    width: 300px;
+    height: auto;
 
+}
+.each-menu h2
+ {
+    font-family: Roboto;
+    font-size: 30px;
+    margin: 45px 0 20px 0;
+}
+.each-menu p{
+     font-family: Roboto;
+    font-size: 20px;
+}
