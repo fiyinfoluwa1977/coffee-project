@@ -177,7 +177,7 @@ border: 2px solid rgb(242, 150, 29);
     font-size: 20px;
 }
 .gallery {
-    background-color: whitesmoke;
+    background-color: white;
     padding-top: 150px;
     height: 150vh;
 }
@@ -205,6 +205,88 @@ border: 2px solid rgb(242, 150, 29);
     &:hover{
         transform: scale(1.1);
         transition: 0.5s;
-    }
-   
+    }  
 }
+.contact{
+    height: 80vh;
+    padding-top: 50px;
+    background-color: whitesmoke;
+}
+.contact h1{
+    text-align: center;
+    font-family: Roboto;
+}
+.info {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly ;
+    margin-top: 50px;
+    gap: 0px;
+    
+}
+.schedule {
+    font-family: Poppins;
+    font-size: 20px;
+}
+.schedule p{
+    margin-bottom: 22px;
+}
+.form-contact{
+    display: grid;
+}
+.form-mssg  {
+    padding: 15px 350px 15px 10px;
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 2px solid rgb(201, 199, 199);
+}
+.mssg{
+    padding: 35px 350px 35px 10px;
+    font-family: Poppins;
+    border: 2px solid rgb(201, 199, 199);
+    font-size: 14px;
+    border-radius: 10px;
+}
+.form-contact button {
+    padding: 15px 40px ;
+    border-radius: 30px;
+    width: fit-content;
+    justify-self: start;
+    color: white;
+    background-color: rgb(59, 20, 28);
+    font-family: Roboto;
+    font-size: 20px;
+    margin-top: 35px;}
+/* 
+.container {
+    height: 100vh;
+    background-color: bisque;
+    padding: 200px 0px 0 0px;
+    overflow: hidden;
+}
+.card-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+}
+.card-wrapper img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+}
+.card-wrapper li {
+    flex: 0 0 calc(100% / 3);
+     display: flex;
+    justify-content: center;
+} */
